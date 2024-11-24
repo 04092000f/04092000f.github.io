@@ -1,19 +1,19 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
+  homepage: 'https://04092000f.github.io/',
   title: 'JS.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'Sayyed Furqan Hussain',
+  role: 'Computer Vision Engineer',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'A Computer Vision Engineer with 1.5 years of experience. My work lies in leveraging technology to solve real-world problems through innovative computer vision and machine learning techniques.',
+  resume: 'app.resumai.com/s/iYWTLFqhXQPKsMmhcVfk',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/sayyed-furqan-hussain-6b31071a6/',
+    github: 'https://github.com/04092000f',
   },
 }
 
@@ -21,51 +21,55 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'LicensePlateFinder',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'LicensePlateFinder is a computer vision project designed to detect and locate vehicle license plates in images or videos.',
+    stack: ['Computer Vision', 'Deep Learning', 'Pytorch', 'Object Detection'],
+    sourceCode: 'https://github.com/LicensePlateFinder',
+  },
+    {
+    name: 'CatDogPandaClassifier',
+    description:
+      'A deep learning model built from scratch to classify images of cats, dogs, and pandas.',
+    stack: ['Computer Vision', 'Deep Learning', 'Pytorch', 'Image Classification', 'Convolutional Neural Networks'],
+    sourceCode: 'https://github.com/CatDogPandaClassifier',
   },
   {
-    name: 'Project 2',
+    name: 'BallTrackr',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'BallTrackr is an advanced video application designed to detect and track a soccer ball in real-time using YOLOV3 and KCF Tracker.',
+    stack: ['OpenCV', 'Computer Vision', 'Object Detection'; 'Object Tracking'],
+    sourceCode: 'https://github.com/BallTrackr',
   },
   {
-    name: 'Project 3',
+    name: 'ArtifyLens',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'ArtifyLens is a project that has implemented parts of a selfie app such as filters like pencil-sketch and cartoonify, blemish removal and chroma keying.',
+    stack: ['OpenCV', 'Computer Vision'],
+    sourceCode: 'https://github.com/ArtifyLens',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
-  'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Python',
+  'OpenCV',
+  'Pytorch',
+  'Tensorflow',
+  'NumPy',
+  'Pandas',
+  'Scipy',
+  'cikit-Learn',
+  'Matplotlib',
+  'Django',
+  'Flask',
+  'Streamlit',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'furqansa344@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
