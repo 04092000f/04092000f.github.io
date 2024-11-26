@@ -56,7 +56,7 @@ const skills = [
   'NumPy',
   'Pandas',
   'Scipy',
-  'cikit-Learn',
+  'Scikit-Learn',
   'Matplotlib',
   'Django',
   'Flask',
