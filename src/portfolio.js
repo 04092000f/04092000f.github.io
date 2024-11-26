@@ -10,7 +10,7 @@ const about = {
   role: 'Computer Vision Engineer',
   description:
     'A Computer Vision Engineer with 1.5 years of experience. My work lies in leveraging technology to solve real-world problems through innovative computer vision and machine learning techniques.',
-  resume: 'app.resumai.com/s/iYWTLFqhXQPKsMmhcVfk',
+  resume: 'https://app.resumai.com/s/iYWTLFqhXQPKsMmhcVfk',
   social: {
     linkedin: 'https://www.linkedin.com/in/sayyed-furqan-hussain-6b31071a6/',
     github: 'https://github.com/04092000f',
