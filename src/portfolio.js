@@ -26,7 +26,6 @@ const projects = [
       'LicensePlateFinder is a computer vision project designed to detect and locate vehicle license plates in images or videos.',
     stack: ['Computer Vision', 'Deep Learning', 'Pytorch', 'Object Detection'],
     sourceCode: 'https://github.com/04092000f/LicensePlateFinder',
-    livePreview: 'https://example.com'
   },
     {
     name: 'CatDogPandaClassifier',
@@ -34,7 +33,6 @@ const projects = [
       'A deep learning model built from scratch to classify images of cats, dogs, and pandas.',
     stack: ['Computer Vision', 'Deep Learning', 'Pytorch', 'Image Classification', 'Convolutional Neural Networks'],
     sourceCode: 'https://github.com/04092000f/CatDogPandaClassifier',
-    livePreview: 'https://example.com'
   },
   {
     name: 'BallTrackr',
@@ -42,7 +40,6 @@ const projects = [
       'BallTrackr is an advanced video application designed to detect and track a soccer ball in real-time using YOLOV3 and KCF Tracker.',
     stack: ['Computer Vision', 'OpenCV', 'Object Detection', 'Object Tracking'],
     sourceCode: 'https://github.com/04092000f/BallTrackr',
-    livePreview: 'https://example.com'
   }
 ]
 
