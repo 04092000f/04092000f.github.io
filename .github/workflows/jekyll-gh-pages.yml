@@ -45,18 +45,21 @@ jobs:
           nvm use 14
         shell: bash
 
-      - name: Install dependencies with Yarn
-        run: yarn
-        working-directory: ./
-
-      - name: Build project with Yarn
+      - name: Start Your Project with Yarn
         run: |
+          yarn 
+        working-directory: ./
+        
+      - name: Build with Yarn
+        run: |
+          git remote set-url origin https://04092000f:${{ secrets.GITHUB_TOKEN }}@github.com/04092000f/04092000f/
           git config --global user.name 'Furqan Sayyed'
           git config --global user.email 'furqansa344@gmail.com'
           export NODE_OPTIONS=--openssl-legacy-provider
+          set NODE_OPTIONS=--openssl-legacy-provider
           npx browserslist@latest --update-db
           yarn run build
-        working-directory: ./
+        working-directory: ./  
 
       - name: Deploy to GitHub Pages
         id: deployment
