@@ -9,7 +9,7 @@ const about = {
   name: 'Sayyed Furqan Hussain',
   role: 'AI and Computer Vision Engineer',
   description:
-    'A Computer Vision Engineer with 2 years of experience. My work lies in leveraging technology to solve real-world problems through innovative computer vision and machine learning techniques.',
+    'Computer Vision Engineer with 2 years of experience. My work lies in leveraging technology to solve real-world problems through innovative computer vision and machine learning techniques.',
   resume: 'https://drive.google.com/file/d/14leURpKMhpOlCTbbfcaymBTAOrciwC53/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/furqansa344/',
