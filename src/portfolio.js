@@ -42,11 +42,12 @@ const projects = [
     sourceCode: 'https://github.com/04092000f/BallTrackr',
   },
   {
-    name: 'ArtifyLens',
+    name: 'Filterify',
     description:
-      'ArtifyLens is a project that has implemented parts of a selfie app such as filters like pencil-sketch and cartoonify, blemish removal and chroma keying.',
+      ' A fun and fast way to apply awesome filters to your images, right in your browser.',
     stack: ['Computer Vision', 'OpenCV'],
     sourceCode: 'https://github.com/04092000f/ArtifyLens',
+    livePreview: 'https://filterify.streamlit.app/',
   },
   {
     name: 'ForestMonitor',
